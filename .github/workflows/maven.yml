@@ -23,6 +23,6 @@ jobs:
     - name : move
       run: cd scripts
     - name : Chrome  
-      run: InstallChrome.sh
+      run: ./InstallChrome.sh
     - name: Build with Maven
       run: mvn -B package --file pom.xml
